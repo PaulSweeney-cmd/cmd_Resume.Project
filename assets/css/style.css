@@ -33,12 +33,16 @@ h4 {
 
 .uppercase {
     text-transform: uppercase;
+    
 }
-
 .general-sub {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 /*-----------------------------------------------------------Heading */
@@ -57,7 +61,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
 
@@ -140,5 +144,4 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
-    
 }
