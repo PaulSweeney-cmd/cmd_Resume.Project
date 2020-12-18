@@ -49,6 +49,13 @@ h4 {
     display: inline-block;
 }
 
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+}
 /*-----------------------------------------------------------Heading */
 
 header {
