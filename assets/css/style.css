@@ -303,7 +303,7 @@ footer {
     margin: 0;
 }
 
-.timeline-item::before {
+.timeline-item:before {
     content: attr(data-dates);
     position: absolute;
     left: 2.5em;
@@ -326,4 +326,8 @@ footer {
     border-radius: 12px;
     content: '';
     background: #fafafa;
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
